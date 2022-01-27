@@ -1,0 +1,15 @@
+.second-area{
+    display: flex;
+    height: 80vh;
+}
+
+
+.content{
+    background-color: skyblue;
+    border: 1px solid tomato;
+    width: 25%;
+}
+
+.content-text{
+    margin: auto;
+}

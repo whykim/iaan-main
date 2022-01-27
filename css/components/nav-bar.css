@@ -1,0 +1,44 @@
+.gnb{
+    padding: 24px 64px;
+    background-color: darkcyan;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar__btn-list {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-bar__icons {
+    display: flex;
+}
+
+.nav-bar__btn {
+    padding: 8px 36px;
+}
+
+.nav-bar__btn > a {
+    color: white;
+}
+
+.first-area__scroll>p{
+    color: white;
+}
+
+.nav-bar__icons-search,
+.nav-bar__icons-MyPage {
+    margin-left: 20px;
+}
+
+
+
+
+

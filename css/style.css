@@ -1,0 +1,18 @@
+/*component*/
+
+@import "components/nav-bar.css";
+
+
+/*screens*/
+
+@import "screens/first-area.css";
+@import "screens/second-area.css";
+
+*{
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}

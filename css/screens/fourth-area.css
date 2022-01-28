@@ -1,0 +1,26 @@
+.fourth-area{
+    height: 100vh;
+    display: flex;
+}
+
+.fourth-area__split1{
+    background-color: skyblue;
+    width: 50%;
+}
+
+.fourth-area__split2{
+    width: 50%;
+    background-color: tomato;
+}
+
+.fourth-area__split2-1{
+    width: 100%;
+    height: 50%;
+    background-color: tomato;
+}
+
+.fourth-area__split2-2{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}

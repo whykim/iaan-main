@@ -1,12 +1,15 @@
 /*component*/
 
 @import "components/nav-bar.css";
-
+@import "components/pagination.css";
+@import "components/news-notice.css";
 
 /*screens*/
 
 @import "screens/first-area.css";
 @import "screens/second-area.css";
+@import "screens/third-area.css";
+@import "screens/fourth-area.css";
 
 *{
     text-decoration: none;

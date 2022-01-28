@@ -1,0 +1,34 @@
+.first-area__news-notice{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+
+.first-area__news-notice > span{
+    color: white;
+    font-weight: 600;
+}
+
+.first-area__news-notice--text{
+    padding: 24px;
+    color: white;
+}
+
+
+.first-area__news-notice--contents{
+    display: block;
+    margin: auto;
+    text-align: left;
+    color: white;
+
+}
+
+.news-notice--content-main{
+    color: white;
+}
+
+.news-notice--content-date{
+    font-size: 14px;
+    color: gray;
+}

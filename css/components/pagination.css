@@ -1,0 +1,31 @@
+.first-area__pagination {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-area__pagination--contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-area__pagination--left-btn > img,
+.first-area__pagination--right-btn > img {
+    width: 7px;
+    height: 23px;
+}
+
+.first-area__pagination--contents-number {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.first-area__pagination--contents-bar {
+    width: 70px;
+    height: 2px;
+    background-color: white;
+    margin: 0 20px;
+}

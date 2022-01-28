@@ -1,15 +1,47 @@
-.second-area{
+.second-area {
     display: flex;
-    height: 80vh;
+    height: 100vh;
 }
 
-
-.content{
-    background-color: skyblue;
-    border: 1px solid tomato;
+.second-area__content {
+    background-image: url("https://www.iaanapt.co.kr/data/file/apt/2087697396_SGmidD6F_c353e68409c72f3f1cbf977f5136c935b8ec66a3.jpg");
+    background-size: cover;
     width: 25%;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 60px;
+    gap: 40px;
 }
 
-.content-text{
-    margin: auto;
+.second-area__content--btn_status {
+    padding: 8px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.second-area__content--title-text > h1 {
+    color: white;
+    font-weight: 400;
+}
+
+.second-area__content--date > span {
+    color: white;
+}
+
+.second-area__content--btn-list_homepage,
+.second-area__content--btn-list_register {
+    padding: 8px 20px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+
+.second-area__content--btn-list_homepage:hover,
+.second-area__content--btn-list_register:hover{
+    background-color: #003744;
 }

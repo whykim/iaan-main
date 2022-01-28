@@ -1,6 +1,6 @@
 .gnb{
     padding: 24px 64px;
-    background-color: darkcyan;
+    background-color: transparent;
     position: fixed;
     width: 100%;
     z-index: 9999;
@@ -21,11 +21,11 @@
     display: flex;
 }
 
-.nav-bar__btn {
+.nav-bar__btn-list--btn {
     padding: 8px 36px;
 }
 
-.nav-bar__btn > a {
+.nav-bar__btn-list--btn > a {
     color: white;
 }
 
@@ -33,10 +33,12 @@
     color: white;
 }
 
-.nav-bar__icons-search,
-.nav-bar__icons-MyPage {
+.nav-bar__icons--search,
+.nav-bar__icons--MyPage {
     margin-left: 20px;
 }
+
+
 
 
 

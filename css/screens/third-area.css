@@ -21,10 +21,9 @@
 }
 
 .instagram,
-.instagram__content{
+.instagram__content {
     width: 100%;
 }
-
 
 
 .third-area__box {
@@ -32,7 +31,7 @@
     margin: 0 16px;
 }
 
-.instagram__content{
+.instagram__content {
     margin-top: 0px;
     padding-bottom: 0px;
 }

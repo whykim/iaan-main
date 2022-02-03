@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.third-area__boxes {
+.third-area__boxes  {
     display: flex;
     justify-content: center;
     align-items: center;

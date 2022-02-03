@@ -7,6 +7,7 @@
 }
 .nav-bar {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -21,8 +22,8 @@
     display: flex;
 }
 
-.nav-bar__btn-list--btn {
-    padding: 8px 36px;
+.nav-bar__btn-list--btn > a{
+    padding: 20px 36px;
 }
 
 .nav-bar__btn-list--btn > a {

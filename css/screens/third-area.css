@@ -1,4 +1,4 @@
-.third-area{
+.third-area {
     height: 110vh;
     background-image: url("https://www.iaanapt.co.kr/_imgs/community_bg.jpg");
     background-size: cover;
@@ -8,19 +8,31 @@
     align-items: center;
 }
 
-.third-area__text{
+.third-area__text {
     padding-bottom: 20px;
     text-align: center;
 }
 
-.third-area__boxes{
+.third-area__boxes {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
+    gap: 0;
 }
 
-.third-area__box{
-    width: 400px;
-    height: 400px;
-    border: 1px solid tomato;
-    text-align: center;
+.instagram,
+.instagram__content{
+    width: 100%;
+}
+
+
+
+.third-area__box {
+    width: 350px;
+    margin: 0 16px;
+}
+
+.instagram__content{
+    margin-top: 0px;
+    padding-bottom: 0px;
 }

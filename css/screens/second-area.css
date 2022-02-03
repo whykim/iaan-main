@@ -33,7 +33,9 @@
 
 .second-area__content--btn-list_homepage,
 .second-area__content--btn-list_register {
+    width: 140px;
     padding: 8px 20px;
+    margin: 4px;
     border: 1px solid white;
     background-color: transparent;
     color: white;

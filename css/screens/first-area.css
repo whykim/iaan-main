@@ -1,7 +1,10 @@
+.first-area__wrap {
+    display: flex;
+}
 
 .first-area {
-    background-color: tomato;
     height: 100vh;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,6 +15,21 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+
+.first-area__vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    background-image: url("https://www.iaanapt.co.kr/_imgs/exor_bg1.jpg");
+    background-size: cover;
+}
+
+.first-area__vertical--text {
+    transform: rotate(270deg);
+    font-size: 24px;
+    color: white;
 }
 
 .first-area__title > h1 {
@@ -26,6 +44,7 @@
     color: white;
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -33,6 +52,10 @@
     color: white;
     font-size: 14px;
     margin-bottom: 20px;
+}
+
+.fourth-area__split2-1--text_area-sub-title {
+    color: white;
 }
 
 

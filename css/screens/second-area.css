@@ -13,6 +13,7 @@
     align-items: center;
     padding-top: 60px;
     gap: 40px;
+
 }
 
 .second-area__content--btn_status {
@@ -20,6 +21,7 @@
     border: 1px solid white;
     background-color: transparent;
     color: white;
+    width: 90px;
 }
 
 .second-area__content--title-text > h1 {
@@ -35,11 +37,12 @@
 .second-area__content--btn-list_register {
     width: 140px;
     padding: 8px 20px;
-    margin: 4px;
+    margin: 2px;
     border: 1px solid white;
     background-color: transparent;
     color: white;
     font-size: 18px;
+
 }
 
 

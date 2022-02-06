@@ -1,11 +1,9 @@
 .fourth-area {
     height: 100vh;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .fourth-area__split1 {
-    background-color: skyblue;
     background-image: url("https://www.iaanapt.co.kr/_imgs/help_bg1.jpg");
     background-size: cover;
     background-repeat: inherit;
@@ -14,7 +12,6 @@
 
 .fourth-area__split2 {
     width: 50%;
-    background-color: tomato;
 }
 
 .fourth-area__split2-1 {
@@ -56,8 +53,6 @@
     line-height: 40px;
 }
 
-
-
 ul {
     list-style: none;
     margin-top: 65px;
@@ -68,7 +63,7 @@ li > a {
     font-size: 20px;
 }
 
-li{
+li {
     margin-top: 20px;
 }
 
@@ -76,13 +71,18 @@ li a:hover {
     border-bottom: 1px solid white;
 }
 
-.fourth-area__split2-1--text_area-title{
+.fourth-area__split2-1--text_area-title {
     font-size: 40px;
     font-weight: 600;
     color: white;
     margin-bottom: 12px;
 }
 
-.fourth-area__split2-1{
+.fourth-area__split2-1,
+.fourth-area__split2-2{
     padding: 30px 30px;
+}
+
+.fourth-area__split2-1--text_area-sub-title{
+
 }

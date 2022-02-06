@@ -3,6 +3,7 @@
     background-image: url("https://www.iaanapt.co.kr/_imgs/community_bg.jpg");
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -17,12 +18,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0;
 }
 
 .instagram,
 .instagram__content {
     width: 100%;
+    display: flex;
 }
 
 

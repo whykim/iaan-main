@@ -1,6 +1,7 @@
 .second-area {
     display: flex;
     height: 100vh;
+    flex-wrap: wrap;
 }
 
 .second-area__content {
@@ -11,10 +12,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
     padding-top: 60px;
     gap: 40px;
-
 }
 
 .second-area__content--btn_status {
@@ -50,4 +49,19 @@
 .second-area__content--btn-list_homepage:hover,
 .second-area__content--btn-list_register:hover{
     background-color: #003744;
+}
+
+@media screen and (max-width: 800px){
+    .second-area__content{
+        width: 50%;
+        display: flex;
+
+    }
+}
+
+@media screen and (max-width: 600px){
+    .second-area__content{
+        width: 100%;
+        display: flex;
+    }
 }

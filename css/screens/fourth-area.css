@@ -1,6 +1,7 @@
 .fourth-area {
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .fourth-area__split1 {
@@ -83,6 +84,9 @@ li a:hover {
     padding: 30px 30px;
 }
 
-.fourth-area__split2-1--text_area-sub-title{
 
+@media screen and (max-width: 800px){
+    .fourth-area__split1{
+        width: 100%;
+    }
 }

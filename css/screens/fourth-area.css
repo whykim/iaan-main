@@ -80,13 +80,32 @@ li a:hover {
 }
 
 .fourth-area__split2-1,
-.fourth-area__split2-2{
-    padding: 30px 30px;
+.fourth-area__split2-2 {
+    padding: 70px;
 }
 
 
-@media screen and (max-width: 800px){
-    .fourth-area__split1{
+@media screen and (max-width: 800px) {
+    .fourth-area__split1 {
         width: 100%;
     }
+
+    .fourth-area__split2{
+        width: 100%;
+    }
+
+    .fourth-area {
+        height: auto;
+    }
+    .fourth-area__split2-1--text_area-title{
+        font-size: 32px;
+    }
+    .fourth-area__split1--text_area-title{
+        font-size: 32px;
+    }
+}
+
+
+@media screen and (max-width: px) {
+
 }

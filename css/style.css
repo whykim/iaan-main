@@ -18,6 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    word-break: keep-all;
 }
 
 .night-mode{
@@ -46,14 +47,8 @@
     align-items: center;
     justify-content: flex-start;
     padding-left: 10px;
-    transition: all 0.6s ease-in-out;
-
 }
 
-.night-mode:focus-within .night-mode-text{
-    display: inline-block;
-    margin-left: 10px;
-}
 
 
 

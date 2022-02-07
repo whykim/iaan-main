@@ -21,7 +21,7 @@
     border: 1px solid white;
     background-color: transparent;
     color: white;
-    width: 90px;
+    width: 100px;
 }
 
 .second-area__content--title-text > h1 {
@@ -35,7 +35,7 @@
 
 .second-area__content--btn-list_homepage,
 .second-area__content--btn-list_register {
-    width: 140px;
+    width: 150px;
     padding: 8px 20px;
     margin: 2px;
     border: 1px solid white;

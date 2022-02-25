@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+      * {
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
+      .c{
+          /*width:100%;*/
+          /*border:2px dotted palegreen;*/
+          height:100vh;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+      }
+      .d1{
+          background-color: orange;
+          height: 100%;
+      }
+      .d2{
+          background-color: forestgreen;
+          height: 50%;
+      }
+      .d3{
+          background-color: skyblue;
+          height: 50%;
+      }
+
+      @media (max-width: 600px) {
+          .d1{
+              order:3;
+              height:50%
+          }
+          .d2{
+              order:2;
+              height: 50%;
+          }
+          .d3{
+              order:1;
+              height: 100%;
+          }
+      }
+
+  </style>
+</head>
+<body>
+<div class="c">
+  <div class="d d1">1</div>
+  <div class="d d2">2</div>
+  <div class="d d3">3</div>
+</div>
+</body>
+</html>
